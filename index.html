@@ -6,6 +6,7 @@
   <title>CS2 Hub — Ziel, Personas & Design</title>
   <meta name="description" content="Ziel der Seite, personas und Designkonzept des CS2 Hubs.">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="workflow.css">
 </head>
 <body>
   <div class="progress" id="progress"></div>
@@ -15,6 +16,8 @@
     <nav>
       <a href="#ziel">Ziel</a>
       <a href="#personas">Personas</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#journey">User Journey</a>
       <a href="#design">Design</a>
     </nav>
     <a class="nav-cta" href="#design">Design ansehen <span>↗</span></a>
@@ -37,7 +40,9 @@
         <div class="radar"><span></span><span></span><span></span><span></span><b>CS2</b></div>
         <div class="hero-stat"><strong>01</strong><small>ZIEL</small></div>
         <div class="hero-stat"><strong>02</strong><small>PERSONAS</small></div>
-        <div class="hero-stat"><strong>03</strong><small>DESIGN</small></div>
+        <div class="hero-stat"><strong>03</strong><small>WORKFLOW</small></div>
+        <div class="hero-stat"><strong>04</strong><small>USER JOURNEY</small></div>
+        <div class="hero-stat"><strong>05</strong><small>DESIGN</small></div>
       </div>
       <div class="scroll">SCROLL TO EXPLORE <span>↓</span></div>
     </section>
@@ -126,8 +131,194 @@
       </div>
     </section>
 
+    <section class="workflow section" id="workflow">
+      <div class="section-label">03 / PERSONA-WORKFLOWS</div>
+      <div class="workflow-intro">
+        <h2>Ein Ziel.<br><span>Drei Wege.</span></h2>
+        <p>Der CS2 Hub führt jede Persona passend zu ihren Bedürfnissen von der ersten Frage bis zum nächsten konkreten Schritt.</p>
+      </div>
+      <div class="workflow-grid">
+        <article class="workflow-card">
+          <div class="workflow-card-head">
+            <span class="workflow-number">01 / EFFIZIENZ</span>
+            <h3>Lukas M.</h3>
+            <p>Das passende Setup finden, ohne lange zu suchen.</p>
+          </div>
+          <ol class="workflow-steps" aria-label="Workflow für Lukas M.">
+            <li><span>01</span><strong>Bedarf wählen</strong><small>Was soll besser werden?</small></li>
+            <li><span>02</span><strong>Empfehlung prüfen</strong><small>Optionen verständlich vergleichen</small></li>
+            <li><span>03</span><strong>Setup anpassen</strong><small>Passende Änderung umsetzen</small></li>
+            <li><span>04</span><strong>Direkt trainieren</strong><small>Verbesserung im Spiel testen</small></li>
+          </ol>
+        </article>
+
+        <article class="workflow-card">
+          <div class="workflow-card-head">
+            <span class="workflow-number">02 / EINFACHHEIT</span>
+            <h3>Michael K.</h3>
+            <p>Schnell eine klare Antwort finden und anwenden.</p>
+          </div>
+          <ol class="workflow-steps" aria-label="Workflow für Michael K.">
+            <li><span>01</span><strong>Frage eingeben</strong><small>Ein Thema oder Problem wählen</small></li>
+            <li><span>02</span><strong>Guide öffnen</strong><small>Klare Erklärung ohne Fachjargon</small></li>
+            <li><span>03</span><strong>Schritt umsetzen</strong><small>Der Anleitung direkt folgen</small></li>
+            <li><span>04</span><strong>Ergebnis prüfen</strong><small>Im nächsten Match ausprobieren</small></li>
+          </ol>
+        </article>
+
+        <article class="workflow-card">
+          <div class="workflow-card-head">
+            <span class="workflow-number">03 / TECHNIK</span>
+            <h3>Daniel S.</h3>
+            <p>Zusammenhänge verstehen und gezielt optimieren.</p>
+          </div>
+          <ol class="workflow-steps" aria-label="Workflow für Daniel S.">
+            <li><span>01</span><strong>System analysieren</strong><small>Hardware und Ausgangswerte erfassen</small></li>
+            <li><span>02</span><strong>Settings testen</strong><small>Eine Änderung gezielt ausprobieren</small></li>
+            <li><span>03</span><strong>Leistung messen</strong><small>FPS und Spielgefühl vergleichen</small></li>
+            <li><span>04</span><strong>Feinjustieren</strong><small>Ergebnis verstehen und verbessern</small></li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="journey section" id="journey">
+      <div class="section-label">04 / USER JOURNEYS</div>
+      <div class="workflow-intro">
+        <h2>Vom ersten Klick<br><span>zum Aha-Moment.</span></h2>
+        <p>Drei individuelle Nutzerreisen zeigen, was jede Persona erlebt, wie sich ihr Gefühl verändert und wo der CS2 Hub sie am besten unterstützen kann.</p>
+      </div>
+      <div class="journey-grid">
+        <article class="journey-card">
+          <div class="journey-card-head">
+            <div><span class="workflow-number">EFFIZIENZ / USER JOURNEY</span><h3>Lukas M.</h3></div>
+            <p>Ein besseres Setup finden, ohne Zeit zu verlieren.</p>
+          </div>
+          <div class="journey-flow" aria-label="User Journey von Lukas M. mit Standard- und Sonderpfad">
+            <div class="journey-phase">
+              <div class="journey-phase-label"><span>PHASE 01</span><strong>Entry</strong></div>
+              <div class="journey-node"><span>STARTPUNKT</span><strong>Performance soll besser werden</strong><p>Sucht einen schnellen, wirksamen CS2-Tipp.</p></div>
+              <small class="journey-emotion">Neugierig</small>
+            </div>
+            <div class="journey-link" aria-hidden="true"><span></span></div>
+            <div class="journey-phase journey-phase-decision">
+              <div class="journey-phase-label"><span>PHASE 02</span><strong>Need &amp; Search</strong></div>
+              <div class="journey-decision"><span>ENTSCHEIDUNG</span><strong>Welche Verbesserung bringt am meisten?</strong></div>
+              <small class="journey-emotion">Fokussiert</small>
+            </div>
+            <div class="journey-link" aria-hidden="true"><span></span></div>
+            <div class="journey-phase journey-phase-branches">
+              <div class="journey-phase-label"><span>PHASE 03</span><strong>Evaluation</strong></div>
+              <div class="journey-branch-grid">
+                <div class="journey-path"><span>STANDARDPFAD</span><div class="journey-node"><strong>Empfehlung passt</strong><p>Setup-Optionen direkt vergleichen.</p></div></div>
+                <div class="journey-path journey-path-edge"><span>SONDERFALL</span><div class="journey-node"><strong>Kompatibilität unklar</strong><p>Kurzguide und Voraussetzungen prüfen.</p></div></div>
+              </div>
+              <small class="journey-emotion">Sicherer</small>
+            </div>
+            <div class="journey-merge" aria-hidden="true"><span></span></div>
+            <div class="journey-phase">
+              <div class="journey-phase-label"><span>PHASE 04</span><strong>Core Action</strong></div>
+              <div class="journey-node"><span>UMSETZEN</span><strong>Setup gezielt anpassen</strong><p>Übernimmt die passende Empfehlung in kleinen, klaren Schritten.</p></div>
+              <small class="journey-emotion">Motiviert</small>
+            </div>
+            <div class="journey-link" aria-hidden="true"><span></span></div>
+            <div class="journey-phase journey-phase-outcome">
+              <div class="journey-phase-label"><span>PHASE 05</span><strong>Conversion</strong></div>
+              <div class="journey-node"><span>ERGEBNIS</span><strong>Im Match bestätigt</strong><p>Prüft den Effekt und speichert den hilfreichen Tipp.</p></div>
+              <small class="journey-emotion">Zufrieden</small>
+            </div>
+          </div>
+          <div class="journey-opportunity"><strong>CHANCE FÜR DEN CS2 HUB</strong><p>Klare Empfehlungen, kurze Vergleiche und ein direkter Weg von der Auswahl zur Umsetzung.</p></div>
+        </article>
+
+        <article class="journey-card">
+          <div class="journey-card-head">
+            <div><span class="workflow-number">EINFACHHEIT / USER JOURNEY</span><h3>Michael K.</h3></div>
+            <p>Ohne Fachjargon schnell eine verlässliche Antwort finden.</p>
+          </div>
+          <div class="journey-flow" aria-label="User Journey von Michael K. mit Standard- und Sonderpfad">
+            <div class="journey-phase">
+              <div class="journey-phase-label"><span>PHASE 01</span><strong>Entry</strong></div>
+              <div class="journey-node"><span>STARTPUNKT</span><strong>Ein Problem tritt auf</strong><p>Möchte eine klare Antwort ohne lange Suche.</p></div>
+              <small class="journey-emotion">Unsicher</small>
+            </div>
+            <div class="journey-link" aria-hidden="true"><span></span></div>
+            <div class="journey-phase journey-phase-decision">
+              <div class="journey-phase-label"><span>PHASE 02</span><strong>Need &amp; Search</strong></div>
+              <div class="journey-decision"><span>ENTSCHEIDUNG</span><strong>Ist die Antwort verständlich?</strong></div>
+              <small class="journey-emotion">Orientiert</small>
+            </div>
+            <div class="journey-link" aria-hidden="true"><span></span></div>
+            <div class="journey-phase journey-phase-branches">
+              <div class="journey-phase-label"><span>PHASE 03</span><strong>Evaluation</strong></div>
+              <div class="journey-branch-grid">
+                <div class="journey-path"><span>STANDARDPFAD</span><div class="journey-node"><strong>Guide beantwortet die Frage</strong><p>Kurze Anleitung direkt öffnen.</p></div></div>
+                <div class="journey-path journey-path-edge"><span>SONDERFALL</span><div class="journey-node"><strong>Begriff bleibt unklar</strong><p>FAQ oder Glossar als Hilfe anbieten.</p></div></div>
+              </div>
+              <small class="journey-emotion">Erleichtert</small>
+            </div>
+            <div class="journey-merge" aria-hidden="true"><span></span></div>
+            <div class="journey-phase">
+              <div class="journey-phase-label"><span>PHASE 04</span><strong>Core Action</strong></div>
+              <div class="journey-node"><span>ANWENDEN</span><strong>Anleitung Schritt für Schritt</strong><p>Setzt die verständliche Lösung direkt im Spiel um.</p></div>
+              <small class="journey-emotion">Sicher</small>
+            </div>
+            <div class="journey-link" aria-hidden="true"><span></span></div>
+            <div class="journey-phase journey-phase-outcome">
+              <div class="journey-phase-label"><span>PHASE 05</span><strong>Conversion</strong></div>
+              <div class="journey-node"><span>ERGEBNIS</span><strong>Problem gelöst</strong><p>Erlebt eine verlässliche Antwort und kommt gerne wieder.</p></div>
+              <small class="journey-emotion">Zufrieden</small>
+            </div>
+          </div>
+          <div class="journey-opportunity"><strong>CHANCE FÜR DEN CS2 HUB</strong><p>Eine intuitive Navigation, kurze Anleitungen und vertrauenswürdige Antworten ohne unnötigen Fachjargon.</p></div>
+        </article>
+
+        <article class="journey-card">
+          <div class="journey-card-head">
+            <div><span class="workflow-number">TECHNIK / USER JOURNEY</span><h3>Daniel S.</h3></div>
+            <p>Performance systematisch verstehen und optimieren.</p>
+          </div>
+          <div class="journey-flow" aria-label="User Journey von Daniel S. mit Standard- und Sonderpfad">
+            <div class="journey-phase">
+              <div class="journey-phase-label"><span>PHASE 01</span><strong>Entry</strong></div>
+              <div class="journey-node"><span>STARTPUNKT</span><strong>FPS oder Spielgefühl enttäuschen</strong><p>Prüft Hardware und aktuelle Einstellungen.</p></div>
+              <small class="journey-emotion">Neugierig</small>
+            </div>
+            <div class="journey-link" aria-hidden="true"><span></span></div>
+            <div class="journey-phase journey-phase-decision">
+              <div class="journey-phase-label"><span>PHASE 02</span><strong>Need &amp; Search</strong></div>
+              <div class="journey-decision"><span>ENTSCHEIDUNG</span><strong>Ist die Verbesserung messbar?</strong></div>
+              <small class="journey-emotion">Prüfend</small>
+            </div>
+            <div class="journey-link" aria-hidden="true"><span></span></div>
+            <div class="journey-phase journey-phase-branches">
+              <div class="journey-phase-label"><span>PHASE 03</span><strong>Evaluation</strong></div>
+              <div class="journey-branch-grid">
+                <div class="journey-path"><span>STANDARDPFAD</span><div class="journey-node"><strong>Benchmark ist nachvollziehbar</strong><p>Settings gezielt im A/B-Test vergleichen.</p></div></div>
+                <div class="journey-path journey-path-edge"><span>SONDERFALL</span><div class="journey-node"><strong>Werte weichen stark ab</strong><p>Hardware-Limits und Ursachen prüfen.</p></div></div>
+              </div>
+              <small class="journey-emotion">Kontrolliert</small>
+            </div>
+            <div class="journey-merge" aria-hidden="true"><span></span></div>
+            <div class="journey-phase">
+              <div class="journey-phase-label"><span>PHASE 04</span><strong>Core Action</strong></div>
+              <div class="journey-node"><span>TESTEN</span><strong>Eine Einstellung gezielt ändern</strong><p>Misst FPS und Spielgefühl unter gleichen Bedingungen.</p></div>
+              <small class="journey-emotion">Fokussiert</small>
+            </div>
+            <div class="journey-link" aria-hidden="true"><span></span></div>
+            <div class="journey-phase journey-phase-outcome">
+              <div class="journey-phase-label"><span>PHASE 05</span><strong>Conversion</strong></div>
+              <div class="journey-node"><span>ERGEBNIS</span><strong>Optimierung nachvollziehbar</strong><p>Behält belegte Verbesserungen und versteht den Effekt.</p></div>
+              <small class="journey-emotion">Zufrieden</small>
+            </div>
+          </div>
+          <div class="journey-opportunity"><strong>CHANCE FÜR DEN CS2 HUB</strong><p>Aktuelle technische Hintergründe, nachvollziehbare Messwerte und konkrete Testschritte bereitstellen.</p></div>
+        </article>
+      </div>
+    </section>
+
     <section class="design section" id="design">
-      <div class="section-head"><div><div class="section-label">03 / DESIGN</div><h2>So sieht der<br><span>CS2 Hub</span> aus.</h2></div><p>Die Seite nutzt eine klare, dunkle Esport-Ästhetik mit starkem Fokus auf Lesbarkeit, Kontrast und schnelle Orientierung.</p></div>
+      <div class="section-head"><div><div class="section-label">05 / DESIGN</div><h2>So sieht der<br><span>CS2 Hub</span> aus.</h2></div><p>Die dunkle Esport-Ästhetik verbindet klare Lesbarkeit mit einer modernen Flow-Grafik: Phasen geben Orientierung, Akzentfarben markieren Entscheidungen und mögliche Wege.</p></div>
 
       <div class="design-grid">
         <article class="design-card">
@@ -148,7 +339,12 @@
         <article class="design-card">
           <span>INTERAKTION</span>
           <h3>Begrenzte, klare Wirkung</h3>
-          <p>Hover-Effekte, aktive Tabs und kleine Bewegungselemente unterstützen die Orientierung, ohne die Seite überladen oder unruhig zu machen.</p>
+          <p>Hover-Effekte und kleine Bewegungselemente unterstützen die Orientierung. Auf schmalen Bildschirmen bleibt die Navigation in einer horizontal verschiebbaren, einzeiligen Leiste zugänglich.</p>
+        </article>
+        <article class="design-card">
+          <span>USER JOURNEY</span>
+          <h3>Phasen &amp; Pfade</h3>
+          <p>Gerahmte Phasen führen vom Einstieg bis zum Ergebnis. Ein Entscheidungsfeld verzweigt in Standard- und Sonderpfad; beide laufen in einer klar hervorgehobenen Kernaktion wieder zusammen. Dezente Emotions-Tags zeigen, wie sich das Nutzergefühl entwickelt.</p>
         </article>
       </div>
 
